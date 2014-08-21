@@ -6,7 +6,7 @@ SQL実行の実態はdjangoに独自コマンドを用意しているのでこ�
 
 ## Usage
 
-### player_shardのSQLを実行する場合
+### user_shardのSQLを実行する場合
 
 	sh Tools/getdata_for_shards.sh "path/to/sql" # ./SQL直下のパスを指定
 
