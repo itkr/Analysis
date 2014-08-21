@@ -12,7 +12,7 @@ SQL実行の実態はdjangoに独自コマンドを用意しているのでこ�
 
 水平分割それぞれのDBに同じSQLを実行する。
 
-### defaultデータベースのSQLを実行する場合（Gamelogやguild関連）
+### defaultデータベースのSQLを実行する場合
 
 	sh Tools/getdata_for_default.sh "path/to/sql" # ./SQL直下のパスを指定
 
