@@ -18,7 +18,7 @@ SQL実行の実態はdjangoに独自コマンドを用意しているのでこ�
 
 実行するSQLはDBを指定する
 
-	select * from rise_guild.guild_guildbattleresultenteredmembers;
+	select * from foo_db.bar_datatable;
 
 
 ## 指定するSQLのパスについて
