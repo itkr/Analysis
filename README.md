@@ -13,30 +13,27 @@
 
 	sh Tools/getdata_for_default.sh "path/to/sql" # ./SQL直下のパスを指定
 
-### 実行するSQLはDBを指定する
+実行するSQLはDBを指定する
 
 	select * from rise_guild.guild_guildbattleresultenteredmembers;
 
---
 
 ## 指定するSQLのパスについて
 
-### ./SQLの直下のパスを指定する
+* ./SQLの直下のパスを指定する
 
 現在は"./SQL"直下しか指定できない 今後は修正するかも(2014/06/17
 
-### 指定はディレクトリか.sqlファイル
+* 指定はディレクトリか.sqlファイル
 
 ディレクトリを指定した場合はそのディレクトリ直下の".sql"ファイルを全て実行する
 ファイルを指定した場合はそのファイルのみを実行する(拡張子は省く)
 
---
 
 ## 出力先
 
 SQLの実行結果は"./Result"の下に出力される。 "./Result"より下のディレクトリ構造は指定したSQLのパスの"./SQL"より下の構造と同様になる
 
---
 
 ## 不足機能
 
