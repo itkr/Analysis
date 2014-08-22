@@ -10,13 +10,13 @@ SQL実行の実態はdjangoに独自コマンドを用意しているのでこ�
 
 ### user_shardのSQLを実行する場合
 
-	sh Tools/getdata_for_shards.sh "path/to/sql" # ./SQL直下のパスを指定
+	sh Tools/getdata_for_shards.sh "path/to/sql" # ./SQL下のパスを指定
 
 水平分割それぞれのDBに同じSQLを実行する。
 
 ### defaultデータベースのSQLを実行する場合
 
-	sh Tools/getdata_for_default.sh "path/to/sql" # ./SQL直下のパスを指定
+	sh Tools/getdata_for_default.sh "path/to/sql" # ./SQL下のパスを指定
 
 実行するSQLはDBを指定する
 
@@ -25,9 +25,9 @@ SQL実行の実態はdjangoに独自コマンドを用意しているのでこ�
 
 ## 指定するSQLのパスについて
 
-* ./SQLの直下のパスを指定する
+* ./SQLの下のパスを指定する
 
-現在は"./SQL"直下しか指定できない 今後は修正するかも(2014/06/17
+現在は"./SQL"下しか指定できない 今後は修正するかも(2014/06/17
 
 * 指定はディレクトリか.sqlファイル
 
